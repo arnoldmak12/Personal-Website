@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import AboutMe from "./SpecificPages/AboutMe";
 
 class Home extends React.Component {
     constructor(props) {
@@ -55,7 +56,7 @@ class Home extends React.Component {
 
                 <div className="info-container">
 
-                    {this.state.clicked === 'About Me' && console.log("me")}
+                    {this.state.clicked === 'About Me' && <AboutMe />}
                     {this.state.clicked === 'Projects' && console.log("projects")}
                     {this.state.clicked === 'Contact' && console.log("contacts")}
 

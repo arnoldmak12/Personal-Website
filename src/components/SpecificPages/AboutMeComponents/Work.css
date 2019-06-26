@@ -1,0 +1,55 @@
+.work-contianer {
+    position: absolute;
+    margin-top: 8%;
+    width: 49%;
+}
+
+.work-header {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: red;
+    border-radius: .5rem;
+}
+
+.work-header span{
+    font-size: 240%;
+    color: white;
+}
+
+.work-specific-container {
+    width: 100%;
+    height: auto;
+    /* background: green; */
+}
+
+ul.work-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.work-specifc-list {
+    list-style: none;
+    padding: 1%;
+    margin-bottom: 2.5%;
+    text-align: left;
+}
+
+li.work-specific-entry {
+    /* background: pink; */
+    padding: .5%;
+}
+
+span.position {
+    font-weight: bolder;
+    font-size: 170%;
+}
+
+span.company {
+    font-size: 155%;
+}
+
+span.normal {
+    font-size: 140%;
+    color: rgb(73, 73, 73);
+}

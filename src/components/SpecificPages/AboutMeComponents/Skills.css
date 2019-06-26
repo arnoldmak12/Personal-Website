@@ -1,0 +1,58 @@
+.skills-container {
+    position: absolute;
+    margin-top: 38%;
+    width: 49%;
+    margin-left: 51%;
+}
+
+.skills-header {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: red;
+    border-radius: .5rem;
+}
+
+.skills-header span{
+    padding: 5%;
+    font-size: 240%;
+    color: white;
+
+}
+.skills-specific-container {
+    width: 100%;
+    text-align: left;
+    padding: 2%;
+}
+
+ul.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.skills-specifc-list {
+    list-style: none;
+    padding: 1%;
+    margin-bottom: 2.5%;
+    text-align: left;
+}
+
+li.skills-specific-entry {
+    padding: .5%;
+}
+
+span.type {
+    font-weight: bolder;
+    font-size: 170%;
+}
+
+span.normal {
+    font-size: 140%;
+    color: rgb(73, 73, 73);
+}

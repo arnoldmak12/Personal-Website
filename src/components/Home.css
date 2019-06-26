@@ -54,4 +54,5 @@ button.nav-option span{
 
 button.nav-option:hover {
   cursor: pointer;
+  background: #ff4d4d;
 }

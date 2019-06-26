@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  /* overflow-y: scroll; */
 }
 
 @font-face {
@@ -15,16 +14,15 @@ body {
 }
 
 .background {
-  position: absolute;
+  position: fixed;
   height: 150%;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .main {
   position: absolute;
   height: 150%;
   width: 100%;
-  z-index: 1;
   font-family: 'Gotham';
 }

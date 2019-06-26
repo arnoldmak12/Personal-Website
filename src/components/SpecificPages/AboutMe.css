@@ -1,0 +1,30 @@
+.about-container {
+    /* background: blue; */
+    position: absolute;
+    width: 60%;
+    height: fit-content;
+    top: 16%;
+    left: 20%;
+    text-align: center;
+    /* background: yellow; */
+}
+
+.view-resume-contianer {
+    position: absolute;
+    background: red;
+    width: 100%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  border-radius: .5rem;
+
+}
+
+.view-resume-contianer:hover{
+    background: #ff4d4d;
+}
+
+.view-resume-contianer span{
+    font-size: 240%;
+    color: white;
+}

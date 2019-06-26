@@ -1,0 +1,64 @@
+.education-container {
+    position: absolute;
+    margin-top: 8%;
+    width: 49%;
+    margin-left: 51%;
+}
+
+.align {
+    display: flex;
+    
+}
+
+.education-header {
+    width: 40%;
+    padding-top: 22%;
+    background: red;
+    border-radius: .5rem;
+}
+
+.education-header span{
+    padding: 5%;
+    font-size: 240%;
+    color: white;
+    vertical-align: middle;
+
+}
+
+.education-specific-container {
+    width: 60%;
+    text-align: left;
+    padding: 2%;
+}
+
+ul.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.education-specifc-list {
+    list-style: none;
+    padding: 1%;
+    margin-bottom: 2.5%;
+    text-align: left;
+}
+
+li.education-specific-entry {
+    padding: .5%;
+}
+
+span.school {
+    font-weight: bolder;
+    font-size: 170%;
+}
+
+span.normal {
+    font-size: 140%;
+    color: rgb(73, 73, 73);
+}
