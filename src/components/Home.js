@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import AboutMe from "./SpecificPages/AboutMe";
 import Projects from "./SpecificPages/Projects";
+import Contact from "./SpecificPages/Contact";
 
 class Home extends React.Component {
     constructor(props) {
@@ -59,7 +60,7 @@ class Home extends React.Component {
 
                     {this.state.clicked === 'About Me' && <AboutMe />}
                     {this.state.clicked === 'Projects' && <Projects />}
-                    {this.state.clicked === 'Contact' && console.log("contacts")}
+                    {this.state.clicked === 'Contact' && <Contact />}
 
                 </div>
 

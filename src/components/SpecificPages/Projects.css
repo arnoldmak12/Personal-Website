@@ -30,8 +30,8 @@ li.project-entry {
     margin-left: 1%;
     width: 32%;
     height: 25rem;
-    border: 1px solid black;
-    border-radius: .5rem;
+    border: 2px solid red;
+    border-radius: 1rem;
 }
 
 .project-name {
