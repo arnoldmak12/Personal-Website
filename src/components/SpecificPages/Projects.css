@@ -15,7 +15,7 @@
     to   { opacity: 1; }
 }
 
-ul.project-list {
+ul.project1-list {
     list-style: none;
     width: 100%;
     height: auto;
@@ -23,6 +23,17 @@ ul.project-list {
     margin: 0;
     padding: 0;
     display: inline-flex;
+}
+
+ul.project2-list {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    /* background: green; */
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    margin-top: 2%;
 }
 
 li.project-entry {

@@ -39,7 +39,7 @@ ul.contact-list {
 
 li.contact-entry {
     /* background: black; */
-    border: 1px solid black;
+    border: 1.5px solid black;
     width: 20%;
     height: 60%;
     text-align: center;
