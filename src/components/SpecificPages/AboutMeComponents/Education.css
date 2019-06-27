@@ -1,18 +1,16 @@
 .education-container {
     position: absolute;
-    margin-top: 8%;
     width: 49%;
-    margin-left: 51%;
 }
 
 .align {
     display: flex;
-    
 }
 
 .education-header {
     width: 40%;
     padding-top: 22%;
+    padding-bottom: 22%;
     background: red;
     border-radius: .5rem;
 }

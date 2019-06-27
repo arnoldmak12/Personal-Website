@@ -1,12 +1,17 @@
 .about-container {
-    /* background: blue; */
     position: absolute;
     width: 60%;
-    height: fit-content;
+    height: auto;
     top: 16%;
     left: 20%;
     text-align: center;
-    /* background: yellow; */
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .view-resume-contianer {
@@ -16,8 +21,7 @@
     height: auto;
     padding-top: 1%;
     padding-bottom: 1%;
-  border-radius: .5rem;
-
+    border-radius: .5rem;
 }
 
 .view-resume-contianer:hover{
@@ -27,4 +31,19 @@
 .view-resume-contianer span{
     font-size: 240%;
     color: white;
+}
+
+.specific-components {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 5.5rem;
+}
+
+.education-skills-container {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 51%;
+
 }

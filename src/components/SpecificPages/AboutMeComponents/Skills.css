@@ -1,8 +1,7 @@
 .skills-container {
     position: absolute;
-    margin-top: 38%;
+    top: 21.25rem;
     width: 49%;
-    margin-left: 51%;
 }
 
 .skills-header {

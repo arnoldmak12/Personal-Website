@@ -1,0 +1,16 @@
+.projects-container {
+    background: blue;
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top: 16%;
+    left: 20%;
+    text-align: center;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

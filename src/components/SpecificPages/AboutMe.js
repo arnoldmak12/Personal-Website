@@ -20,13 +20,17 @@ class AboutMe extends React.Component {
 
                 </a>
 
-            <div className="specific-components">
+                <div className="specific-components">
 
-                <Work />
+                    <Work />
 
-                <Education />
+                <div className="education-skills-container">
 
-                <Skills />
+                    <Education />
+
+                    <Skills />
+
+                </div>
 
                 </div>
 
