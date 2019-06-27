@@ -3,6 +3,7 @@ import './AboutMe.css';
 import Work from "./AboutMeComponents/Work";
 import Education from "./AboutMeComponents/Education";
 import Skills from "./AboutMeComponents/Skills";
+import resume from '../../Website_Resume.pdf'
 
 class AboutMe extends React.Component {
 
@@ -10,7 +11,7 @@ class AboutMe extends React.Component {
         return (
             <div className="about-container">
 
-                <a className="view-resume-link" href="/">
+                <a className="view-resume-link" href={resume} target="_blank">
 
                     <div className="view-resume-contianer">
 
