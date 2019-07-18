@@ -84,12 +84,6 @@ class Work extends React.Component {
                                         </li>
 
                                         <li className="work-specific-entry">
-
-                                            {/* <span className="normal">{entry.location}</span> */}
-
-                                        </li>
-
-                                        <li className="work-specific-entry">
                                             
                                             <ul>
                                             <span className="normal">{entry.description.map((entry) => {
