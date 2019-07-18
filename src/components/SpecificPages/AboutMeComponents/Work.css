@@ -35,8 +35,16 @@ ul.work-specifc-list {
 }
 
 li.work-specific-entry {
-    /* background: pink; */
     padding: .5%;
+}
+
+.work-specific-date {
+    float: right;
+    padding-top: .40%;
+}
+
+li.work-specific-description {
+    padding-bottom: 1%;
 }
 
 span.position {
@@ -44,11 +52,17 @@ span.position {
     font-size: 170%;
 }
 
-span.company {
+span.bolded {
     font-size: 155%;
 }
 
 span.normal {
     font-size: 140%;
     color: rgb(73, 73, 73);
+}
+
+span.date {
+    font-size: 140%;
+    color: rgb(73, 73, 73);
+    text-align: right;
 }

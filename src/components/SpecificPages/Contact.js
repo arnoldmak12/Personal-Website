@@ -13,7 +13,7 @@ const github = {
 
 const linkedin = {
     name: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/arnold-makarov-ab1b28184/',
+    link: 'https://www.linkedin.com/in/arnoldmakarov/',
 }
 
 class Contact extends React.Component {
