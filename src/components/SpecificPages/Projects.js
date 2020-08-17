@@ -18,7 +18,7 @@ const chessEngine = {
     name: "Chess Engine",
     img:  chessPic,
     description: 'Play against a Chess AI',
-    github: "https://github.com/arnoldmak12/GPA-Calculator"
+    github: "https://github.com/Rocksrock18/ChessEngine"
 }
 
 const gpaCalc = {
