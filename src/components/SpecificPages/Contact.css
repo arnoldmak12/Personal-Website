@@ -40,11 +40,15 @@ li.contact-entry {
     /* background: black; */
     border: 1.5px solid black;
     width: 20%;
+    min-width: fit-content;
     height: 60%;
     text-align: center;
     border-radius: 1.5rem;
     margin-top: 2.5%;
-    margin-left: 10%;
+    margin-left: 7%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 li.contact-entry a {
