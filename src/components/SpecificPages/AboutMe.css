@@ -1,8 +1,8 @@
 .about-container {
-    position: absolute;
+    position: relative;
     width: 60%;
     height: auto;
-    top: 16%;
+    margin-top: 2%;
     left: 20%;
     text-align: center;
     -webkit-animation: fadein 2s;
@@ -15,7 +15,7 @@
 }
 
 .view-resume-contianer {
-    position: absolute;
+    position: relative;
     background: red;
     width: 100%;
     height: auto;
@@ -34,16 +34,12 @@
 }
 
 .specific-components {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 5.5rem;
+    position: relative;
+    top: 2rem;
 }
 
 .education-skills-container {
-    position: absolute;
-    width: 100%;
-    height: auto;
+    position: relative;
     left: 51%;
 
 }

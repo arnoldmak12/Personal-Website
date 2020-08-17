@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
         return (
             <div className="about-container">
 
-                <a className="view-resume-link" href={resume} target="_blank">
+                <a className="view-resume-link" href={resume} target="_blank" style={{textDecoration: "none"}}>
 
                     <div className="view-resume-contianer">
 

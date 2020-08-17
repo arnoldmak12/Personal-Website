@@ -3,9 +3,10 @@ import './Education.css';
 
 const OSU = {
     school: 'Ohio State University',
-    line1: 'Computer Science and Engineering',
-    line2: 'Expected Grad: May 2022',
-    line3: 'GPA: 3.72'
+    line1: 'BS in Computer Science and Engineering',
+    line2: 'Minor in Mathematics',
+    line3: 'Expected Grad: May 2022',
+    line4: 'GPA: 3.72'
 }
 
 const solon = {
@@ -66,6 +67,12 @@ class Education extends React.Component {
                                         <li className="education-specific-entry">
 
                                             <span className="normal">{entry.line3}</span>
+
+                                        </li>
+
+                                        <li className="education-specific-entry">
+
+                                            <span className="normal">{entry.line4}</span>
 
                                         </li>
 

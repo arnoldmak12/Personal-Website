@@ -1,9 +1,8 @@
 .projects-container {
-    /* background: blue; */
-    position: absolute;
+    position: relative;
     width: 60%;
     height: auto;
-    top: 16%;
+    margin-top: 2%;
     left: 20%;
     
     -webkit-animation: fadein 2s;

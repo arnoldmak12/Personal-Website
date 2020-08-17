@@ -1,8 +1,8 @@
 .contact-container {
-    position: absolute;
+    position: relative;
     width: 40%;
     height: 5%;
-    top: 16%;
+    margin-top: 2%;
     left: 30%;
     
     -webkit-animation: fadein 2s;
@@ -19,7 +19,6 @@
     height: auto;
     background: red;
     border-radius: .5rem;
-
     text-align: center;
 }
 
