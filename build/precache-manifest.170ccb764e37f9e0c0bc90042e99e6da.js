@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b01012c68d6fac205ecc348f4946c5cd",
+    "revision": "dd04ebe24a2f4e83654bc32eb727c84c",
     "url": "/Personal-Website/index.html"
   },
   {
-    "revision": "404c7a006035c6403654",
-    "url": "/Personal-Website/static/css/main.259cb22a.chunk.css"
+    "revision": "9dc46cf99f013c3876b5",
+    "url": "/Personal-Website/static/css/main.827d72e5.chunk.css"
   },
   {
-    "revision": "91a635538f8b876b237a",
-    "url": "/Personal-Website/static/js/2.9c69b543.chunk.js"
+    "revision": "e52bae2e7b0c140e8ec5",
+    "url": "/Personal-Website/static/js/2.61cb371d.chunk.js"
   },
   {
-    "revision": "404c7a006035c6403654",
-    "url": "/Personal-Website/static/js/main.d5d0d6f0.chunk.js"
+    "revision": "9dc46cf99f013c3876b5",
+    "url": "/Personal-Website/static/js/main.f37eb875.chunk.js"
   },
   {
     "revision": "b729f76a5e7e4f32ca6a",
     "url": "/Personal-Website/static/js/runtime~main.b615a709.js"
   },
   {
+    "revision": "f1635a018f903430b9f2666ca5e3e944",
+    "url": "/Personal-Website/static/media/CalcPic.f1635a01.PNG"
+  },
+  {
     "revision": "303f61fb9ff286e00305b1d183b1100a",
     "url": "/Personal-Website/static/media/CheckersPic.303f61fb.PNG"
+  },
+  {
+    "revision": "4d39899461dfc1dfb80f5a5b3893be51",
+    "url": "/Personal-Website/static/media/ChessPic.4d398994.PNG"
   },
   {
     "revision": "cd6f99ef74cb11feb1d7fa30e6ad197a",
@@ -36,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Website/static/media/TicTacToePic.e01a5887.PNG"
   },
   {
-    "revision": "2699be876971608856754cf1fa48eb3f",
-    "url": "/Personal-Website/static/media/Website_Resume.2699be87.pdf"
+    "revision": "1e67952b8964d9dc7d253b103c99361b",
+    "url": "/Personal-Website/static/media/Website_Resume.1e67952b.pdf"
   },
   {
     "revision": "d35936d5d14cd93badf03f1893833053",
