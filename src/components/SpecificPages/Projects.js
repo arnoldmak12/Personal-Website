@@ -8,30 +8,28 @@ import calcPic from './ProjectPics/CalcPic.PNG';
 import chessPic from './ProjectPics/ChessPic.PNG';
 
 const marchMadness = {
-    name: "March Madness Predictor",
-    img: '',
-    description: 'Predicts outcomes of March Madness',
+    name: "March Madness",
+    description: 'Predicts game outcomes',
     github: "https://github.com/arnoldmak12/NCAA-Match-Predictor"
 }
 
 const chessEngine = {
     name: "Chess Engine",
     img:  chessPic,
-    description: 'Play against a Chess AI',
+    description: 'Chess AI',
     github: "https://github.com/Rocksrock18/ChessEngine"
 }
 
 const gpaCalc = {
     name: "GPA Calculator",
     img:  calcPic,
-    description: 'Helps calculate your GPA',
+    description: 'Calculates your GPA',
     github: "https://github.com/arnoldmak12/GPA-Calculator"
 }
 
 const budgetApp = {
-    name: "Budgeting Travel App",
-    img: '',
-    description: 'Helps you plan your vacation',
+    name: "Budget Travel App",
+    description: 'Helps plan your vacation',
     github: "https://github.com/arnoldmak12/Team-2-BudgetTravelApp"
 }
 
@@ -45,7 +43,7 @@ const personal = {
 const tic = {
     name: "Tic-Tac-Toe",
     img: ticPNG,
-    description: 'AI for the Game of Tic-Tac-Toe',
+    description: 'Tic-Tac-Toe AI',
     github: "https://github.com/arnoldmak12/Tic-Tac-Toe"
 }
 
@@ -90,7 +88,7 @@ class Projects extends React.Component {
 
                                 </div>
 
-                                <img className="project-image" src={entry.img} alt={entry.name}/>
+                                {entry.img  ? <img className="project-image" src={entry.img} alt={entry.name}/> : null}
 
 
                                 <div className="project-description">
@@ -125,7 +123,7 @@ class Projects extends React.Component {
 
                                 </div>
 
-                                <img className="project-image" src={entry.img} alt={entry.name}/>
+                                {entry.img  ? <img className="project-image" src={entry.img} alt={entry.name}/> : null}
 
 
                                 <div className="project-description">
@@ -160,7 +158,7 @@ class Projects extends React.Component {
 
                                 </div>
 
-                                <img className="project-image" src={entry.img} alt={entry.name}/>
+                                {entry.img  ? <img className="project-image" src={entry.img} alt={entry.name}/> : null}
 
 
                                 <div className="project-description">
