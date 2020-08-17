@@ -1,13 +1,41 @@
 import React from "react";
 import './Work.css';
 
+const capitalOneInternship = {
+    position: 'SWE Intern',
+    company: 'Capital One',
+    location: 'Remote',
+    date: 'May 2020 - August 2020',
+    description: [
+        'Created the frontend for a data service using React',
+        'Assisted in the backend development by implementing an AWS Lambda query function that interacts with a PostgreSQL database on AWS RDS using Python and SQL']
+}
+
+const capitalOneCoders = {
+    position: 'Mentor',
+    company: 'Capital One',
+    location: 'Remote',
+    date: 'May 2020 - July 2020',
+    description: [
+        "Volunteered in Capital One's CODERS Web Development Program for kids"]
+}
+
+const capitalOneSummit = {
+    position: 'SWE Summit',
+    company: 'Capital One',
+    location: 'Clarendon, Virginia',
+    date: 'August 2019',
+    description: [
+        'Participated in various workshops and competed in an event Hackathon']
+}
+
 const skiplist = {
-    position: 'Software Dev. Intern',
+    position: 'SWE Intern',
     company: 'Skiplist',
     location: 'Cleveland, Ohio',
-    date: 'May 2019 - Present',
+    date: 'May 2019 - August 2019',
     description: [
-        'Developing Full-Stack Project Management Tool with React, HTML/CSS, and Redux ',
+        'Developing Full-Stack Project Management Tool with React, HTML/CSS, and Redux',
         'Accessing/Storing Data with PostgreSQL',
         'Controlling Versions of Project with Git']
 }
@@ -37,7 +65,7 @@ class Work extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            work: [skiplist, sparton, furniture]
+            work: [capitalOneInternship, capitalOneCoders, capitalOneSummit ,skiplist, sparton, furniture]
         };
     }
 

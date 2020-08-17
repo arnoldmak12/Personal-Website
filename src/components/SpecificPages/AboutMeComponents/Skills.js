@@ -1,31 +1,26 @@
 import React from "react";
 import './Skills.css';
 
-const data = {
-    type: "Database",
-    skills: 'SQL • PostgreSQL'
-};
-
 const program = {
     type: "Programming",
-    skills: 'C# • C++ • Javascript • Java • Python • MatLab'
+    skills: 'C • C# • C++ • Java • Python • SQL • MatLab'
 };
 
 const web = {
     type: "Web Development",
-    skills: 'React • HTML/CSS • Redux'
+    skills:  'JavaScript • Node.js • HTML/CSS • jQuery • React'
 };
 
 const misc = {
     type: "Misc.",
-    skills: 'Microsoft Office • Adobe Photoshop • Git • Windows • Linux • SolidWorks'
+    skills: 'AWS (Cloud Practitioner Certification) • Azure • ASP.Net Core • Git • PostgreSQL • Unix'
 };
 
 class Skills extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            skills: [ data, program, web, misc]
+            skills: [ program, web, misc]
         };
     }
 

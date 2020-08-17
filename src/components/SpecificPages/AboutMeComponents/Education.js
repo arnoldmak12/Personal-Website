@@ -6,7 +6,7 @@ const OSU = {
     line1: 'BS in Computer Science and Engineering',
     line2: 'Minor in Mathematics',
     line3: 'Expected Grad: May 2022',
-    line4: 'GPA: 3.72'
+    line4: 'GPA: 3.51'
 }
 
 const solon = {

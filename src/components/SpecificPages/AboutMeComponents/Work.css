@@ -40,7 +40,8 @@ li.work-specific-entry {
 
 .work-specific-date {
     float: right;
-    padding-top: .40%;
+    padding-top: .80%;
+    font-size: .9em
 }
 
 li.work-specific-description {

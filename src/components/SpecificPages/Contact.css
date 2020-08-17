@@ -45,12 +45,10 @@ li.contact-entry {
     border-radius: 1.5rem;
     margin-top: 2.5%;
     margin-left: 10%;
-    padding-top: .5rem;
 }
 
 li.contact-entry a {
     font-size: 150%;
     color: black;
     text-decoration: none;
-    margin-bottom: 20rem;
 }
